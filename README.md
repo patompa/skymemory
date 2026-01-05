@@ -10,3 +10,11 @@ Code Companion for:
   year={2025}
 }
 ```
+
+Paper results can be reproduced by running:
+```
+./simulate.sh
+```
+which generated raw data in `./results` and plots in `./plots`.
+
+Only python dependency is `numpy`.
