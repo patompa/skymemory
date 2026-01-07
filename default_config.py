@@ -12,4 +12,5 @@ config["MAX_SATELLITES"] = 15
 config["MAX_ORBS"] = 15
 config["CENTER_SATELLITE"] = 8
 config["CENTER_ORB"] = 8
+config["ROTATION"] = 0
 

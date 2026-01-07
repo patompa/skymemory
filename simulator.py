@@ -20,7 +20,7 @@ class Simulator:
     self.on_board = self.config["STRATEGY"] == "hop"
     self.chunklocator = ChunkLocator((self.center_sat,self.center_orb),strategy=self.strategy,
                                      servers=self.servers,tot_sats=self.max_sats, tot_orbs=self.max_orbs)
-    self.chunklocator.rotate(10)
+    self.chunklocator.rotate(self.config["ROTATION"])
     self.positions = self.chunklocator.positions
     self.chunk_size = self.config["CHUNK_SIZE_BYTES"] 
     self.kvc_size = config["KVC_BYTES"] 
