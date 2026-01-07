@@ -20,6 +20,6 @@ for (metric in metrics) {
   points(data.hop[,1],data.hop$MAX,col="blue")
   lines(data.hoprotation[,1],data.hoprotation$MAX,col="green")
   points(data.hoprotation[,1],data.hoprotation$MAX,col="green")
-  legend("bottomright",legend=c("rotation","hop","hoprotation"),col=c("red","blue","green"),lty=1)
+  legend("center",legend=c("rotation","hop","hoprotation"),col=c("red","blue","green"),lty=1)
 dev.off()
 }
